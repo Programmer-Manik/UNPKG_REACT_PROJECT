@@ -1,3 +1,4 @@
+// import React from "react"
 const helloworld = () => {
        {
         return React.createElement('p',{},'helloworld')
@@ -9,6 +10,8 @@ const othersFunction = () => {
        }
 };
 
+// import React from 'react'
+// import { ReactDOM } from 'react';
 const  App = () => {
    {
     return React.createElement(

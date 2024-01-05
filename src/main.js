@@ -1,3 +1,5 @@
+// import React from 'react'
+// import { ReactDOM } from 'react';
 import {helloworld, othersFunction} from './others'
 const  App = () => {
    {
