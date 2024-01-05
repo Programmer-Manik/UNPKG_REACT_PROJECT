@@ -1,4 +1,14 @@
-import {helloworld, othersFunction} from './others'
+const helloworld = () => {
+       {
+        return React.createElement('p',{},'helloworld')
+       }
+};
+const othersFunction = () => {
+       {
+        return React.createElement('p',{},'othersFunction')
+       }
+};
+
 const  App = () => {
    {
     return React.createElement(
@@ -9,7 +19,7 @@ const  App = () => {
         othersFunction()
      );
    }
-} 
+}; 
 
 
 // babel  
@@ -30,7 +40,7 @@ const  App = () => {
 // }
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(React.createElement(App));
 
 // root.render(<App />)
