@@ -11,7 +11,8 @@ export default {
     plugins:[nodeResolve({extensions:['.js','.jsx']}),
     commonjs(),
     replace({
-        'process.env.NODE_ENV':JSON.stringify('development')
+        'process.env.NODE_ENV':JSON.stringify('development'),
+        preventAssignment: true,
     }),
 ]
 };
